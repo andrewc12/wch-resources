@@ -1,0 +1,27 @@
+;片内FLASH分散加载文件，决定各个代码段和数据段的存储位置（用于产品）
+
+ROM_LOAD 0x00000000
+{
+    ROM_EXEC 0x00000000
+    {
+        STARTUP.O (vectors, +First)
+        * (+RO)
+    }
+
+    IRAM 0x40000000
+    {
+        STARTUP.O (+RW,+ZI)
+        * (+RW,+ZI)
+    }
+    
+    HEAP +0 UNINIT
+    {
+        HEAP.O (+ZI)
+    }
+
+    STACKS 0x40004000 UNINIT
+    {
+        STACK.O (+ZI)
+    }
+    
+}

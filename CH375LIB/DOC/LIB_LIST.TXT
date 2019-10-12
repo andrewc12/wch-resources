@@ -1,0 +1,89 @@
+CH375的U盘文件读写子程序库的目录列表
+
+|-- MCS51: MCS51单片机
+|      |-- FILELIB4: 增强版U盘文件级子程序库,支持FAT12/FAT16/FAT32读写,比FILELIB6优化,仅支持CH375B
+|      |      |-- EXAM0: C示例源程序,USB主从模块切换,可以读写U盘,也可以连接计算机通讯
+|      |      |-- EXAM1: C示例源程序,查询方式,单DPTR复制
+|      |      |-- EXAM2: C示例源程序,中断方式,单DPTR和P0+R0复制
+|      |      |-- EXAM3: C示例源程序,查询方式,双DPTR复制,磁盘缓冲区与文件缓冲区复用
+|      |      |-- EXAM4: C示例源程序,查询方式,双DPTR复制+外部子程序,没有文件缓冲区
+|      |      |-- EXAM5: ASM示例源程序,查询方式,单DPTR复制
+|      |      |-- EXAM6: C示例源程序,查询方式,单DPTR复制,以字节为单位读写文件,没有文件缓冲区
+|      |      |-- EXAM7: C示例源程序,查询方式,以字节为单位读写文件,没有文件缓冲区,保存ADC数据到U盘
+|      |      |-- EXAM8: C示例源程序,查询方式,以扇区为单位读写文件,保存ADC数据到U盘
+|      |      |-- EXAM9: C示例源程序,查询方式,以扇区为单位读写文件(目录),创建子目录
+|      |      |-- EXAM10: C示例源程序,查询方式,处理文件目录信息,修改文件名,设置文件创建日期和时间
+|      |      |-- EXAM11: C示例源程序,查询方式,处理小写字母及长文件名,支持长文件名创建/打开/删除等
+|      |      |-- EXAM12: C示例源程序,查询方式,演示检查U盘是否写保护以及安全移除U盘等
+|      |      |-- EXAM13: C示例源程序,查询方式,演示快速枚举搜索整个U盘或者当前目录下的所有文件等
+|      |-- FILELIB6: 增强版U盘文件级子程序库,例子同FILELIB4
+|      |-- FILELIB5: 非总线I/O的增强版U盘文件级子程序库
+|      |      |-- EXAM7: C示例源程序,查询方式,以字节为单位读写文件,没有文件缓冲区,保存ADC数据到U盘
+|      |-- FILELIBA: 只用外部RAM/基本不用内部RAM的增强版U盘文件级子程序库
+|      |      |-- EXAM1: C示例源程序,查询方式,单DPTR复制
+|      |-- FILELIBC: 非总线I/O的只用外部RAM/基本不用内部RAM的增强版U盘文件级子程序库
+|      |      |-- EXAM7: C示例源程序,查询方式,以字节为单位读写文件,没有文件缓冲区,保存ADC数据到U盘
+|      |-- FILELIBC_IAR: 非总线I/O的只用外部RAM/基本不用内部RAM的增强版U盘文件级子程序库,IAR V7.20H
+|      |-- FILELIBL: MCS51-MX体系单片机(例如P89C669等)的增强版U盘文件级子程序库
+|      |-- FILELIBK: 大容量高速51单片机(例如DS80C390等)的增强版U盘文件级子程序库
+|-- X86PC: 80X86兼容PC工控机/单片机
+|      |-- FILELIB7: 增强版U盘文件级子程序库,small模式编译
+|      |      |-- EXAM1: C示例源程序,查询方式,内部复制
+|      |      |-- EXAM6: C示例源程序,查询方式,内部复制,以字节为单位读写文件,没有文件缓冲区
+|      |-- FILELIBG: 增强版U盘文件级子程序库,Huge模式编译
+|-- MSP430: MSP430单片机
+|      |-- FILELIB8: 增强版U盘文件级子程序库,IAR-EW V2.10
+|      |      |-- EXAM1: C示例源程序,查询方式,内部复制
+|      |      |-- EXAM6: C示例源程序,查询方式,内部复制,以字节为单位读写文件,没有文件缓冲区
+|      |-- FILELIBF: 增强版U盘文件级子程序库,IAR-EW V3.20
+|      |-- FILELIBF_V41: 增强版U盘文件级子程序库,IAR-EW50 V4.11B
+|      |-- FILELIBF_X41: 增强版U盘文件级子程序库,IAR-EW50 V4.11B,MSP430X内核指令,medium模式
+|      |-- FILELIBF_L41: 增强版U盘文件级子程序库,IAR-EW50 V4.11B,MSP430X内核指令,large模式
+|      |-- FILELIBF_L54: 增强版U盘文件级子程序库,IAR-EW60 V5.40,MSP430X内核指令,large模式
+|-- ARM32: 32位指令ARM单片机
+|      |-- FILELIB9: 增强版U盘文件级子程序库,ADS V1.2,小端数据格式
+|      |      |-- EXAM1: C示例源程序,查询方式,内部复制
+|      |      |-- EXAM6: C示例源程序,查询方式,内部复制,以字节为单位读写文件,没有文件缓冲区
+|      |-- FILELIBH: 增强版U盘文件级子程序库,SDT V2.51,小端数据格式
+|      |-- FILELIBI: 增强版U盘文件级子程序库,ADS V1.2,大端数据格式,ARM/Thumb指令相互调用
+|      |-- FILELIBM: 增强版U盘文件级子程序库,KEIL V3.00,小端数据格式,ARM/Thumb指令相互调用
+|      |      |-- EXAM1: C示例源程序,查询方式,内部复制
+|      |-- FILELIBM_16: 增强版U盘文件级子程序库,KEIL V3.00,小端数据格式,16位Thumb指令,ARM/Thumb指令相互调用
+|      |-- FILELIBM_CX: 增强版U盘文件级子程序库,KEIL V3.11,小端数据格式,Cortex-M3内核指令
+|      |-- FILELIBM_KL: 增强版U盘文件级子程序库,KEIL V3.XX/Keil CARM编译器,小端数据格式,16位Thumb指令,ARM/Thumb指令相互调用
+|      |-- FILELIBO: 增强版U盘文件级子程序库,ADS V1.2,小端数据格式,16位Thumb指令
+|      |-- FILELIBO_RO: 增强版U盘文件级子程序库,ADS V1.2,小端数据格式,16位Thumb指令,只读/不支持写U盘
+|      |-- FILELIBS: 增强版U盘文件级子程序库,ADS V1.2,小端数据格式,ARM/Thumb指令相互调用
+|      |-- FILELIBU: 增强版U盘文件级子程序库,IAR-EW 4.31A,小端数据格式,ARM/Thumb指令相互调用
+|      |-- FILELIBU_CX: 增强版U盘文件级子程序库,IAR-EW 4.42A,小端数据格式,Cortex-M3内核指令
+|      |-- FILELIBU_CX5: 增强版U盘文件级子程序库,IAR-EW 5.20,小端数据格式,Cortex-M3内核指令
+|      |-- FILELIB9_V5: 增强版U盘文件级子程序库,IAR-EW 5.20,小端数据格式,ARM/Thumb指令相互调用
+|      |-- FILELIB9_RV: 增强版U盘文件级子程序库,RealView V2.2,小端数据格式,ARM/Thumb指令相互调用
+|      |-- FILELIB9_RV32: 增强版U盘文件级子程序库,RealView V2.2,小端数据格式,ARM V5T指令
+|-- AVR: AVR单片机
+|      |-- FILELIBB: 增强版U盘文件级子程序库,ICC 6.31
+|      |      |-- EXAM1: C示例源程序,查询方式,内部复制
+|      |      |-- EXAM6: C示例源程序,查询方式,内部复制,以字节为单位读写文件,没有文件缓冲区
+|      |-- FILELIBB_V7: 增强版U盘文件级子程序库,ICC 7.13
+|      |-- FILELIBD: 增强版U盘文件级子程序库,WinAVR-GCC 3.45
+|      |      |-- EXAM6: C示例源程序,查询方式,内部复制,以字节为单位读写文件,没有文件缓冲区
+|      |-- FILELIBJ: 增强版U盘文件级子程序库,IAR EW2.3/2.26C
+|      |      |-- EXAM1: C示例源程序,查询方式,内部复制
+|      |-- FILELIBJ_V3: 增强版U盘文件级子程序库,IAR EW-CPP2.25/3.20C
+|      |-- FILELIBJ_V43: 增强版U盘文件级子程序库,IAR EW-C/C++ 4.30D
+|      |-- FILELIBJ_V5: 增强版U盘文件级子程序库,IAR EW-C/C++ 5.11B
+|      |-- FILELIBJ_V5V5: 增强版U盘文件级子程序库,IAR EW-C/C++ 5.11B,V5版本AVR
+|-- M16C: Renesas/M16C系列单片机
+|      |-- FILELIBP: 增强版U盘文件级子程序库, far-RAM
+|      |-- FILELIBP_NF: 增强版U盘文件级子程序库, near-RAM
+|-- MC9S12: Motorola/Freescale MC9S12/08系列单片机
+|      |-- FILELIBQ: 增强版U盘文件级子程序库, MC9S12, Banked Memory Model
+|      |-- FILELIBQ_SM: 增强版U盘文件级子程序库, MC9S12, Small Memory Model
+|      |-- FILELIBQ_8: 增强版U盘文件级子程序库, MC9S08, Small Memory Model
+|-- MC68: MC68000系列单片机
+|      |-- FILELIBR: 增强版U盘文件级子程序库, SDS65
+|-- MIPS: MIPS内核单片机
+|      |-- FILELIBT: U盘文件级子程序库,sde-gcc 3.0
+|      |-- FILELIBT_NM: U盘文件级子程序库,sde-gcc 3.0,冲突变量已加后缀_375,可以与CH374的库同时使用
+|-- TOOLS: 超精简FAT16文件系统源程序及工具源程序,在WINDOWS下直接读写第二物理硬盘或者U盘的物理扇区的数据
+|-- DOC: 相关文档说明
