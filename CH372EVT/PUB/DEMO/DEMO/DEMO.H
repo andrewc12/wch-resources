@@ -1,0 +1,112 @@
+// define for DEMO
+#ifndef		_DEMO_H
+#define		_DEMO_H
+
+#define     IDI_ICON1  5700
+#define     IDC_devstatue 5970
+#define		IDC_N1     5801
+#define		IDC_N2     5802
+#define		IDC_N3     5803
+#define		IDC_N4     5804
+#define		IDC_N5     5805
+#define		IDC_N6     5806
+#define		IDC_N7     5807
+#define		IDC_N8     5808
+#define		IDC_K0     5900
+#define		IDC_K1     5901
+#define		IDC_K2     5902
+#define		IDC_K3     5903
+#define		IDC_K4     5904
+#define		IDC_K5	   5905
+#define		IDC_K6	   5906
+#define		IDC_K7     5907
+#define		IDC_K8		5908
+#define		IDC_K9		5909
+#define		IDC_K10		5910
+#define		IDC_K11		5911
+#define		IDC_K12		5912
+#define		IDC_K13		5913
+#define		IDC_K14		5914
+#define		IDC_K15		5915
+#define		IDC_K16		5916
+#define		IDC_K17		5917
+#define		IDC_K18		5918
+#define     IDC_K19		5919
+#define     IDC_K20		5920
+#define     IDC_K21		5921
+#define     IDC_K22		5922
+#define     IDC_K23		5923
+#define     IDC_K24		5924
+#define     IDC_K25		5925
+#define     IDC_K26		5926
+#define     IDC_K27		5927
+#define     IDC_K28		5928
+#define     IDC_K29		5929
+#define     IDC_K30		5930
+#define     IDC_K31		5931
+#define     IDC_K32		5932
+#define		IDC_K33		5933
+#define     IDC_K34		5934
+#define     IDC_K35		5935
+#define     IDC_K36		5936
+#define     IDC_K37		5937
+#define     IDC_K38		5938
+#define     IDC_K39		5939
+#define     IDC_K40		5940
+#define     IDC_K41		5941
+#define     IDC_K42		5942
+#define     IDC_K43		5943
+#define     IDC_K44		5944
+#define     IDC_K45		5945
+#define		IDC_K46		5946
+#define     IDC_K47		5947
+#define     IDC_K48		5948
+#define     IDC_K49		5949
+#define     IDC_K50		5950
+#define     IDC_K51		5951
+#define     IDC_K52		5952
+#define     IDC_K53		5953
+#define     IDC_K54		5954
+#define     IDC_K55		5955
+#define     IDC_K56		5956
+#define     IDC_K57		5957
+#define     IDC_K58		5958
+#define     IDC_K59		5959
+#define		IDC_K60		5960
+#define     IDC_K61		5961
+#define     IDC_K62		5962
+#define     IDC_K63		5963
+
+#define		IDC_CMD1	5503
+#define		IDC_TXT1	5504
+#define		IDC_TXT2	5505
+#define		IDC_TXT3	5506
+
+#define		IDC_OK       5601
+#define		IDC_CANCEL   5602
+#define		IDC_EDIT1    5603
+
+#define     IDC_LeftShift  6121
+#define     IDC_RightShift 6122
+#define     IDC_WordShift  6123            
+#define     IDC_WordCircularShift   6124       
+#define     IDC_FlashLed1    6125
+#define     IDC_FlashLed2    6126
+#define     IDC_FlashLed3    6127
+#define     IDC_FlashLed4    6128             
+#define     IDC_FlashLed5    6129
+#define     IDC_FlashLed6    6130
+#define     IDC_FlashLed7    6131
+#define     IDC_FlashLed8    6132
+#define     IDC_SegUnLight    6133
+#define     IDC_SegLight      6134
+#define     IDC_LoadLightPole 6135
+#define     IDC_SegAddr       6136
+#define     IDC_SetSegLight   6137
+#define     IDC_BCDCoding     6138
+#define     IDC_LimitVal      6139
+#define     IDC_SetShowPara   6140
+#define     IDC_cmdcode       6141
+
+
+#endif

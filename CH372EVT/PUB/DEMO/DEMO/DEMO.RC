@@ -1,0 +1,293 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+#include "demo.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON    DISCARDABLE     "DEMO.ICO"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MAIN DIALOG DISCARDABLE  150, 100, 355, 207
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "CH372/CH375和CH451/CH452演示程序 V1.3"
+FONT 10, "宋体"
+BEGIN
+    PUSHBUTTON      "0",IDC_N1,8,11,18,27
+    PUSHBUTTON      "0",IDC_N2,26,11,18,27
+    PUSHBUTTON      "0",IDC_N3,44,11,18,27
+    PUSHBUTTON      "0",IDC_N4,62,11,18,27
+    PUSHBUTTON      "0",IDC_N5,80,11,18,27
+    PUSHBUTTON      "0",IDC_N6,98,11,18,27
+    PUSHBUTTON      "0",IDC_N7,116,11,18,27
+    PUSHBUTTON      "0",IDC_N8,134,11,18,27
+    PUSHBUTTON      "0",IDC_K0,24,75,14,14
+    PUSHBUTTON      "1",IDC_K1,38,75,14,14
+    PUSHBUTTON      "2",IDC_K2,52,75,14,14
+    PUSHBUTTON      "3",IDC_K3,66,75,14,14
+    PUSHBUTTON      "4",IDC_K4,80,75,14,14
+    PUSHBUTTON      "5",IDC_K5,94,75,14,14
+    PUSHBUTTON      "6",IDC_K6,108,75,14,14
+    PUSHBUTTON      "7",IDC_K7,122,75,14,14
+    PUSHBUTTON      "8",IDC_K8,24,89,14,14
+    PUSHBUTTON      "9",IDC_K9,38,89,14,14
+    PUSHBUTTON      "10",IDC_K10,52,89,14,14
+    PUSHBUTTON      "11",IDC_K11,66,89,14,14
+    PUSHBUTTON      "12",IDC_K12,80,89,14,14
+    PUSHBUTTON      "13",IDC_K13,94,89,14,14
+    PUSHBUTTON      "14",IDC_K14,108,89,14,14
+    PUSHBUTTON      "15",IDC_K15,122,89,14,14
+    PUSHBUTTON      "16",IDC_K16,24,103,14,14
+    PUSHBUTTON      "17",IDC_K17,38,103,14,14
+    PUSHBUTTON      "18",IDC_K18,52,103,14,14
+    PUSHBUTTON      "19",IDC_K19,66,103,14,14
+    PUSHBUTTON      "20",IDC_K20,80,103,14,14
+    PUSHBUTTON      "21",IDC_K21,94,103,14,14
+    PUSHBUTTON      "22",IDC_K22,108,103,14,14
+    PUSHBUTTON      "23",IDC_K23,122,103,14,14
+    PUSHBUTTON      "24",IDC_K24,24,117,14,14
+    PUSHBUTTON      "25",IDC_K25,38,117,14,14
+    PUSHBUTTON      "26",IDC_K26,52,117,14,14
+    PUSHBUTTON      "27",IDC_K27,66,117,14,14
+    PUSHBUTTON      "28",IDC_K28,80,117,14,14
+    PUSHBUTTON      "29",IDC_K29,94,117,14,14
+    PUSHBUTTON      "30",IDC_K30,108,117,14,14
+    PUSHBUTTON      "31",IDC_K31,122,117,14,14
+    PUSHBUTTON      "32",IDC_K32,24,131,14,14
+    PUSHBUTTON      "33",IDC_K33,38,131,14,14
+    PUSHBUTTON      "34",IDC_K34,52,131,14,14
+    PUSHBUTTON      "35",IDC_K35,66,131,14,14
+    PUSHBUTTON      "36",IDC_K36,80,131,14,14
+    PUSHBUTTON      "37",IDC_K37,94,131,14,14
+    PUSHBUTTON      "38",IDC_K38,108,131,14,14
+    PUSHBUTTON      "39",IDC_K39,122,131,14,14
+    PUSHBUTTON      "40",IDC_K40,24,145,14,14
+    PUSHBUTTON      "41",IDC_K41,38,145,14,14
+    PUSHBUTTON      "42",IDC_K42,52,145,14,14
+    PUSHBUTTON      "43",IDC_K43,66,145,14,14
+    PUSHBUTTON      "44",IDC_K44,80,145,14,14
+    PUSHBUTTON      "45",IDC_K45,94,145,14,14
+    PUSHBUTTON      "46",IDC_K46,108,145,14,14
+    PUSHBUTTON      "47",IDC_K47,122,145,14,14
+    PUSHBUTTON      "48",IDC_K48,24,159,14,14
+    PUSHBUTTON      "49",IDC_K49,38,159,14,14
+    PUSHBUTTON      "50",IDC_K50,52,159,14,14
+    PUSHBUTTON      "51",IDC_K51,66,159,14,14
+    PUSHBUTTON      "52",IDC_K52,80,159,14,14
+    PUSHBUTTON      "53",IDC_K53,94,159,14,14
+    PUSHBUTTON      "54",IDC_K54,108,159,14,14
+    PUSHBUTTON      "55",IDC_K55,122,159,14,14
+    PUSHBUTTON      "56",IDC_K56,24,173,14,14
+    PUSHBUTTON      "57",IDC_K57,38,173,14,14
+    PUSHBUTTON      "58",IDC_K58,52,173,14,14
+    PUSHBUTTON      "59",IDC_K59,66,173,14,14
+    PUSHBUTTON      "60",IDC_K60,80,173,14,14
+    PUSHBUTTON      "61",IDC_K61,94,173,14,14
+    PUSHBUTTON      "62",IDC_K62,108,173,14,14
+    PUSHBUTTON      "63",IDC_K63,122,173,14,14
+    LTEXT           "上面的每个按钮对应数码管，双击输入数字",IDC_TXT1,6,49,
+                    145,9
+    LTEXT           "下面的每个按钮对应按键，按下时同步显示",IDC_TXT2,6,59,
+                    145,9
+    LTEXT           "**",IDC_devstatue,25,191,99,9,SS_CENTERIMAGE
+    CONTROL         "字移位",IDC_WordShift,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,178,30,36,15
+    CONTROL         "字循环",IDC_WordCircularShift,"Button",
+                    BS_AUTORADIOBUTTON,216,30,36,15
+    PUSHBUTTON      "<<1",IDC_LeftShift,271,28,25,15
+    PUSHBUTTON      "1>>",IDC_RightShift,301,28,21,15
+    CONTROL         "L1",IDC_FlashLed1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    181,62,18,8
+    CONTROL         "L2",IDC_FlashLed2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    200,62,18,8
+    CONTROL         "L3",IDC_FlashLed3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    219,62,18,8
+    CONTROL         "L4",IDC_FlashLed4,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    238,62,18,8
+    CONTROL         "L5",IDC_FlashLed5,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    257,62,18,8
+    CONTROL         "L6",IDC_FlashLed6,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    276,62,18,8
+    CONTROL         "L7",IDC_FlashLed7,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    295,62,18,8
+    CONTROL         "L8",IDC_FlashLed8,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    314,62,18,8
+    GROUPBOX        "闪烁(选中闪烁)",IDC_STATIC,169,50,170,24
+    GROUPBOX        "移位",IDC_STATIC,169,21,170,26
+    GROUPBOX        "CH451/CH452数码管显示命令演示",IDC_STATIC,162,10,183,68
+    GROUPBOX        "段位置0/置1/加载光柱值(CH452支持)",IDC_STATIC,162,83,
+                    183,47
+    PUSHBUTTON      "点击输入CH451/CH452命令码",IDC_CMD1,191,171,121,15
+    EDITTEXT        IDC_SegAddr,276,98,29,13,ES_AUTOHSCROLL
+    PUSHBUTTON      "设置",IDC_SetSegLight,308,98,29,12
+    LTEXT           "地址:(<40H)",IDC_STATIC,229,100,44,8
+    GROUPBOX        "设置显示参数",IDC_STATIC,162,134,182,31
+    CONTROL         "BCD译码方式 (默认不译码)",IDC_BCDCoding,"Button",
+                    BS_AUTOCHECKBOX | BS_TOP | BS_MULTILINE | WS_TABSTOP,172,
+                    145,59,18
+    LTEXT           "扫描极限值:\n(1..8)",IDC_STATIC,233,145,41,16
+    EDITTEXT        IDC_LimitVal,276,147,29,13,ES_AUTOHSCROLL
+    PUSHBUTTON      "设置",IDC_SetShowPara,308,147,29,12
+    CONTROL         "段位置0",IDC_SegUnLight,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,171,94,41,8
+    CONTROL         "段位置1",IDC_SegLight,"Button",BS_AUTORADIOBUTTON,171,
+                    105,41,8
+    CONTROL         "加载光柱值(地址值00:全灭,40:全亮)",IDC_LoadLightPole,
+                    "Button",BS_AUTORADIOBUTTON,171,116,139,8
+    LTEXT           "已发送命令码:",IDC_cmdcode,162,194,179,8
+END
+
+IDD_ENTER DIALOG DISCARDABLE  200, 150, 139, 59
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "输入命令给CH451/CH452"
+FONT 10, "宋体"
+BEGIN
+    EDITTEXT        IDC_EDIT1,21,28,37,14,ES_AUTOHSCROLL | ES_NOHIDESEL
+    DEFPUSHBUTTON   "OK",IDC_OK,78,13,50,14
+    PUSHBUTTON      "Cancel",IDC_CANCEL,78,29,50,14
+    LTEXT           "输入数据",IDC_TXT3,21,13,40,8
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,30,2005,8
+ PRODUCTVERSION 1,30,2005,8
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "http://winchiphead.com\0"
+            VALUE "FileDescription", "DEMO: CH372 & CH451 & CH452\0"
+            VALUE "FileVersion", "1.3\0"
+            VALUE "InternalName", "CH375451.EXE\0"
+            VALUE "LegalCopyright", "Copyright (C) W.ch 1998-2004\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "CH375451.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "DEMO: CH372 & CH451 & CH452\0"
+            VALUE "ProductVersion", "1.3\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""demo.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    "IDD_MAIN", DIALOG
+    BEGIN
+        RIGHTMARGIN, 352
+        TOPMARGIN, 1
+        BOTTOMMARGIN, 204
+    END
+
+    "IDD_ENTER", DIALOG
+    BEGIN
+        RIGHTMARGIN, 136
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

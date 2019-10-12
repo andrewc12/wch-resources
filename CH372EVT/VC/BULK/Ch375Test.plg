@@ -1,0 +1,40 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Ch375Test - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/Ch375Test.res" /d "NDEBUG" /d "_AFXDLL" "E:\Public\Tech3\375bulktest\Ch375Test\Ch375Test.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP8112.TMP" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/Ch375Test.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\Public\Tech3\375bulktest\Ch375Test\Ch375Test.cpp"
+"E:\Public\Tech3\375bulktest\Ch375Test\Ch375TestDlg.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP8112.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP8113.TMP" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/Ch375Test.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\Public\Tech3\375bulktest\Ch375Test\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP8113.TMP" 
+Creating command line "link.exe CH375DLL.LIB /nologo /subsystem:windows /incremental:no /pdb:"Release/Ch375Test.pdb" /machine:I386 /out:"Release/Ch375Test.exe"  .\Release\Ch375Test.obj .\Release\Ch375TestDlg.obj .\Release\StdAfx.obj .\Release\Ch375Test.res "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Ch375Test.cpp
+Ch375TestDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+Ch375Test.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

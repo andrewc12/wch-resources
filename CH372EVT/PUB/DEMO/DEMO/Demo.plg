@@ -1,0 +1,77 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Demo - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/DEMO.res" /d "NDEBUG" "D:\TaskFinished\372Demo\Demo_VC\DEMO.RC"" 
+Creating temporary file "C:\DOCUME~1\Owner\LOCALS~1\Temp\RSP148.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/Demo.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\TaskFinished\372Demo\Demo_VC\DEMO.C"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Owner\LOCALS~1\Temp\RSP148.tmp" 
+Creating temporary file "C:\DOCUME~1\Owner\LOCALS~1\Temp\RSP149.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/Demo.pdb" /machine:I386 /out:"Release/Demo.exe" 
+.\Release\DEMO.OBJ
+.\Release\DEMO.res
+]
+Creating command line "link.exe @C:\DOCUME~1\Owner\LOCALS~1\Temp\RSP149.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+D:\TaskFinished\372Demo\Demo_VC\demo.h(103) : warning RC4005: 'IDC_LoadLightPole' : redefinition
+D:\TaskFinished\372Demo\Demo_VC\demo.h(104) : warning RC4005: 'IDC_SegAddr' : redefinition
+D:\TaskFinished\372Demo\Demo_VC\demo.h(105) : warning RC4005: 'IDC_SetSegLight' : redefinition
+D:\TaskFinished\372Demo\Demo_VC\demo.h(106) : warning RC4005: 'IDC_BCDCoding' : redefinition
+D:\TaskFinished\372Demo\Demo_VC\demo.h(107) : warning RC4005: 'IDC_LimitVal' : redefinition
+D:\TaskFinished\372Demo\Demo_VC\demo.h(108) : warning RC4005: 'IDC_SetShowPara' : redefinition
+D:\TaskFinished\372Demo\Demo_VC\demo.h(109) : warning RC4005: 'IDC_cmdcode' : redefinition
+Compiling...
+DEMO.C
+Linking...
+
+
+
+<h3>Results</h3>
+Demo.exe - 0 error(s), 7 warning(s)
+<h3>
+--------------------Configuration: Demo - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/DEMO.res" /d "_DEBUG" "D:\TaskFinished\372Demo\Demo_VC\DEMO.RC"" 
+Creating temporary file "C:\DOCUME~1\Owner\LOCALS~1\Temp\RSP14B.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/Demo.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\TaskFinished\372Demo\Demo_VC\DEMO.C"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Owner\LOCALS~1\Temp\RSP14B.tmp" 
+Creating temporary file "C:\DOCUME~1\Owner\LOCALS~1\Temp\RSP14C.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/Demo.pdb" /debug /machine:I386 /out:"Debug/Demo.exe" /pdbtype:sept 
+.\Debug\DEMO.OBJ
+.\Debug\DEMO.res
+]
+Creating command line "link.exe @C:\DOCUME~1\Owner\LOCALS~1\Temp\RSP14C.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+D:\TaskFinished\372Demo\Demo_VC\demo.h(103) : warning RC4005: 'IDC_LoadLightPole' : redefinition
+D:\TaskFinished\372Demo\Demo_VC\demo.h(104) : warning RC4005: 'IDC_SegAddr' : redefinition
+D:\TaskFinished\372Demo\Demo_VC\demo.h(105) : warning RC4005: 'IDC_SetSegLight' : redefinition
+D:\TaskFinished\372Demo\Demo_VC\demo.h(106) : warning RC4005: 'IDC_BCDCoding' : redefinition
+D:\TaskFinished\372Demo\Demo_VC\demo.h(107) : warning RC4005: 'IDC_LimitVal' : redefinition
+D:\TaskFinished\372Demo\Demo_VC\demo.h(108) : warning RC4005: 'IDC_SetShowPara' : redefinition
+D:\TaskFinished\372Demo\Demo_VC\demo.h(109) : warning RC4005: 'IDC_cmdcode' : redefinition
+Compiling...
+DEMO.C
+Linking...
+
+
+
+<h3>Results</h3>
+Demo.exe - 0 error(s), 7 warning(s)
+</pre>
+</body>
+</html>
